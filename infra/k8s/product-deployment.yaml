@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: order-service
+  name: product-service
   namespace: cloud-native-ecommerce
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: order-service
+      app: product-service
   template:
     metadata:
       labels:
-        app: order-service
+        app: product-service
     spec:
       containers:
-        - name: order-service
-          image: olymahmudmugdho/order-service:e972edf53be33d035a277bc8ce0d321c00aa26ee
+        - name: product-service
+          image: olymahmudmugdho/product-service:8ec5f717b85a381d4431053449f51000a868c8d9
           ports:
-            - containerPort: 8082
+            - containerPort: 8081
           envFrom:
             - configMapRef:
                 name: app-config
