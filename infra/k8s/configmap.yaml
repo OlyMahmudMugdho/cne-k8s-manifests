@@ -9,7 +9,7 @@ data:
   REDIS_URL: redis://34.74.125.127:6379
   KAFKA_BROKER: 34.74.125.127:9092
   KAFKA_EMAIL_TOPIC: email_notifications
-  MONGO_URL: mongodb://null:27017
+  MONGO_URL: mongodb://34.138.238.155:27017
   EMAIL_FROM: mugdhodzs38@gmail.com
   CART_DB_URI: jdbc:postgresql://34.73.196.64:5432/cart_db
   ORDER_DB_URI: jdbc:postgresql://34.73.196.64:5432/order_db
