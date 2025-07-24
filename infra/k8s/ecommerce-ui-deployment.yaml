@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: ecommerce-ui
-          image: olymahmudmugdho/cne-ecommerce-ui:16451656449355f7c90b024850fb24d3ccf88fb5
+          image: olymahmudmugdho/cne-ecommerce-ui:25fa6833a778809f1e2951da7a43df3b8ebf9234
           ports:
             - containerPort: 4173
           envFrom:
