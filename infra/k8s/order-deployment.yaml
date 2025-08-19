@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: olymahmudmugdho/order-service:d29165ffc5eb76b0b923acde311073d6ecbf36c6
+          image: olymahmudmugdho/order-service:068d80690af2a69d2bb916ddb426afc68a7bfa2c
           ports:
             - containerPort: 8082
           envFrom:
